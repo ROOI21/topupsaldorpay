@@ -1,287 +1,315 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ISI SALDO MIYA PAY VIA WHATSAPP</title>
-<style>
+ <head> 
+  <title>Informasi</title> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+  <style>
+  				@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body {
-background-color: rgb(243, 243, 243);
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  color: #42A5F5;
+}
+.accordion {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background-color: #f1f1f1;
+  color: grey;
+  margin: 0rem 0;
+  border-bottom: 1.4px solid white;
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  background: white;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 2px solid white;
+  border-image: #42A5F5;
+}
+#flam-active {
+box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
+}
+#flam-img {
+				border-radius: 50%;
+				padding-right: 2%;
+				width: 12%;
+}
+#flam-p {
+				padding-left: 4%;
+				padding-right: 4%;
+				padding-bottom: 2.4%;
+				padding-top: 2.4%;
+				width: 100%;
+}
+.badge {
+				background: #2bffc0;
+				color: #24d9b5;
+				font-weight: bold;
+}
+hr {
+				padding: 0;
+				margin: 0;
+}
+.flam-bawah-grey {
+				background: #f1f1f1;
+				padding: 4%;
+				padding-bottom: 2.6%;
+				color: grey;
+				overflow: hidden;
+				width: 90.8%;
+				border-radius: 10px;
+}
+#flam-div {
+				width: 96%;background: white;box-shadow: 0 0px 8px 0 rgba(0,0,0,0.1);border-radius: 20px;
+}
+.flam-div-fixed {
+				position: fixed;
+				bottom: 0;
+				background: #22cdab;
+				color: white;
+				border-radius: 20px;
+				width: 40%;
+				text-align: center;
+				left: 30%;
+				bottom: 2%;
+				box-shadow: 1px 2.8px 1.8px 0 rgba(0,0,0,0.1);
+}
+#flam-img2 {
+				width: 14.8%;float: left;border-radius: 50%;position: relative;bottom: 2px;
+}
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
 }
 
-header {
-background-color: #ffffff;
-padding: 10px 20px;
-border-radius: 0 0 50px 50px;
-position: relative;
-}
+  </style> 
+ </head> 
+ <body> 
+  <!-- partial:index.partial.html --> 
+  <h1 style="color: grey;">FA'Q</h1> 
+  <div class="accordion"> 
+   <div id="flam-active"> 
+    <div class="accordion-item"> 
+     <div class="accordion-item-header"> 
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjEzRT-3Gh38meWoFRJnoFY0alwLJT9N__rufDdi-I5VeFoXxhJwan7cWS488rv22ams8rSdQQLfr5ZayNZpn21e_vDxUlKS2kCyUpMqBJ6UP8yHOR-MqB0WM-p1i1_x6VTTG9xcDdAxsNuZ9qs0mXafWFNx9EgRYnxAUjPBTtS3qyrdwHNU-v2CC2PNQ=s512" alt="" id="flam-img">Bagaimana cara transaksi? 
+     </div> 
+     <div class="accordion-item-body"> 
+      <div class="accordion-item-body-content"> 
+       <center style="color: black;"> 
+        <h4><b>Cara trx di MADIKA STORE</b></h4> 
+        <br> 
+        <div id="flam-div"> 
+         <div id="flam-p"> 
+          <h4 style="float: left; position: relative;left: 14%;top: 2px;"><b>Ikuti Langkah berikut :</b></h4>
+          <br>
+          <br> 
+         </div> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">1</span><b style="color: #404040;left: 6.2%;position: relative;"> Top Up saldo</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">2</span><b style="color: #404040;left: 6.2%;position: relative;"> Pilih Produk</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">3</span><b style="color: #404040;margin-left: 6px;position: relative;"> Baca deskripsi produk</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">4</span><b style="color: #404040;margin-left: 10px;position: relative;">jika sudah cocok</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">5</span><b style="color: #404040;margin-left: 10px;position: relative;">Masukan Nomor Tujuan</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">6</span><b style="color: #404040;margin-left: 10px;position: relative;">Klik Beli</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">7</span><b style="color: #404040;left: 6.2%;position: relative;">Cek bagian Transaksi</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">8</span><b style="color: #404040;margin-left: 10px;position: relative;">Selesai</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;">
+         <br>
+         <div class="flam-bawah-grey"> 
+          <small style="float: left;"><b>Perlu Kamu Ketahui : </b></small>
+          <br>
+          <small style="font-size: 30px;padding-right: 1.4%;margin: 0;float: left;position: relative;bottom: 1.4px;">•</small> 
+          <small style="float: left;"> Nomor tujuan wajib benar</small>
+          <br> 
+          <div style="position: relative;bottom: 8px;">
+           <small style="font-size: 30px;padding-right: 1.4%;margin: 0;float: left;position: relative;bottom: 1.4px;margin-top: 20px;"></small> 
+           <small style="float: left;"> Kesalahan Nomor tujuan, bukan tanggung jawab kami</small>
+           <br> 
+           <br> 
+          </div>
+          <br> 
+         </div> 
+        </div>
+       </center> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="accordion-item"> 
+     <div class="accordion-item-header"> 
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjEzRT-3Gh38meWoFRJnoFY0alwLJT9N__rufDdi-I5VeFoXxhJwan7cWS488rv22ams8rSdQQLfr5ZayNZpn21e_vDxUlKS2kCyUpMqBJ6UP8yHOR-MqB0WM-p1i1_x6VTTG9xcDdAxsNuZ9qs0mXafWFNx9EgRYnxAUjPBTtS3qyrdwHNU-v2CC2PNQ=s512" alt="" id="flam-img">Bagaimana cara Top Up saldo? 
+     </div> 
+     <div class="accordion-item-body"> 
+      <div class="accordion-item-body-content"> 
+       <center style="color: black;"> 
+        <h4><b>Cara Top Up Saldoku</b></h4> 
+        <br> 
+        <div id="flam-div"> 
+         <div id="flam-p"> 
+          <h4 style="float: left; position: relative;left: 14%;top: 2px;"><b>Ikuti langkah berikut</b></h4>
+          <br>
+          <br> 
+         </div> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">1</span><b style="color: #404040;left: 6.2%;position: relative;"> Klik Tombol Top Up</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">2</span><b style="color: #404040;left: 6.2%;position: relative;"> Pilih Nominal Top Up</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">3</span><b style="color: #404040;margin-left: 10px;position: relative;"> Transfer kesalah satu Rekening</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">4</span><b style="color: #404040;left: 6.2%;position: relative;"> 518701022700530 (BRI)</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">5</span><b style="color: #404040;left: 6.2%;position: relative;"> 085242696906 (DANA)</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">6</span><b style="color: #404040;left: 6.2%;position: relative;"> 085340883677 (OVO)</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <div id="flam-p"> 
+          <small style="float: left;"><span class="badge">7</span><b style="color: #404040;left: 6.2%;position: relative;"> 085242696906 (GOPAY)</b></small> 
+         </div>
+         <br> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;"> 
+         <hr style="background: #f1f1f1;border: 0.6px solid #f1f1f1;">
+         <br>
+         <div class="flam-bawah-grey"> 
+          <small style="float: left;"><b>Perlu Kamu Ketahui : </b></small>
+          <br>
+          <small style="font-size: 30px;padding-right: 1.4%;margin: 0;float: left;position: relative;bottom: 1.4px;">•</small> 
+          <small style="float: left;">wajib kirim bukti pembayaran</small>
+          <br> 
+          <br> 
+         </div>
+         <br> 
+        </div> 
+       </center> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="accordion-item"> 
+     <div class="accordion-item-header"> 
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjEzRT-3Gh38meWoFRJnoFY0alwLJT9N__rufDdi-I5VeFoXxhJwan7cWS488rv22ams8rSdQQLfr5ZayNZpn21e_vDxUlKS2kCyUpMqBJ6UP8yHOR-MqB0WM-p1i1_x6VTTG9xcDdAxsNuZ9qs0mXafWFNx9EgRYnxAUjPBTtS3qyrdwHNU-v2CC2PNQ=s512" alt="" id="flam-img">Tentang RAJAWALI PAY? 
+     </div> 
+     <div class="accordion-item-body"> 
+      <div class="accordion-item-body-content">
+        RAJAWALI PAY merupakan aplikasi android yg menyediakan berbagai Produk.
+       <br>Seperti Diamond Game Online, Pulsa Reguler, Saldo E-Wallet, PLN, Dll 
+      </div> 
+     </div> 
+    <div style="background: #f1f1f1;height: 16px;"></div>
+   </div> 
+  </div> 
+  <script>
+  				const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 
-header::after {
-content: "";
-position: absolute;
-left: 0;
-right: 0;
-height: 100%;
-background-color: #ffffff;
-border-radius: 0 0 50px 50px;
-top: 15px;
-z-index: -1;
-}
+accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener("click", event => {
+    
+    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+    
+    // const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    // if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+    //   currentlyActiveAccordionItemHeader.classList.toggle("active");
+    //   currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    // }
 
-section {
-margin-top: 30px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+    
+  });
+});
 
-section p {
-color: rgb(61, 149, 231);
-font-size: 14px;
-}
-
-section a {
-display: inline-flex;
-justify-content: center;
-align-items: center;
-border-radius: 12px;
-gap: 2px;
-padding: 4px 20px;
-background-color: #fff;
-border: 2px solid #fff;
-color: #fff;
-font-size: 14px;
-}
-
-.cards {
-margin-top: 20px;
-background-color: #37474F;
-border-radius: 20px;
-padding: 10px 30px 15px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
-.card {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-.cards .item {
-border: 3px solid #fff;
-padding: 2px;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 10px;
-}
-
-.card p {
-font-size: 12px;
-color: #fff;
-}
-
-.provider {
-background-color: #172939;
-box-shadow: -8px -8px 20px rgb(255, 255, 255);
-margin: 50px 20px 20px;
-border-radius: 16px;
-padding: 30px 15px;
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-gap: 20px;
-}
-
-.card-provider {
-width: 55px;
-height: 55px;
-box-shadow: 6px 6px 6px rgb(0, ,0 , 0.2), -6px -6px 6px rgb(23, 41, 57);
-background-color: #2a3e52;
-border-radius: 29%;
-padding: 6px;
-}
-
-img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-border-radius: 10px;
-}
-
-.tampilText {
-background-color: rgb(243, 243, 243);
-box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.2), -6px -6px 6px rgb(255, 255, 255);
-margin: 40px 20px 20px;
-border-radius: 200px;
-padding: 6px;
-color: #525252;
-font-size: 10px;
-text-align: center;
-}
-
-#pesan.animasi {
-animation: hilangText 1s ease-in-out forwards;
-opacity: 0;
-transform: scale(0);
-}
-
-@keyframes hilangText {
-100% {
-opacity: 1;
-transform: scale(1);
-}
-}
-
-#popup {
-position: fixed;
-inset: 0;
-z-index: 2;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #fff;
-opacity: 0;
-transform: scale(0);
-}
-
-#popup.popup {
-animation: popup 400ms ease-in-out forwards;
-}
-
-@keyframes popup {
-100% {
-opacity: 1;
-transform: scale(1);
-}
-}
-
-.subpopup {
-background-color: rgb(0, 0, 0, 0.8);
-padding: 30px 15px 20px;
-border-radius: 16px;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-#popup img {
-width: 40px;
-height: 40px;
-object-fit: cover;
-border-radius: 50%;
-}
-
-h2 {
-margin-bottom: 40px;
-text-transform: uppercase;
-font-size: 16px;
-}
-
-.items-popup {
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-row-gap: 20px;
-}
-
-#popup .item-popup {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-#popup .item-popup {
-color: #fff;
-}
-
-#popup .item-popup p {
-font-size: 10px;
-margin-top: 5px;
-}
-
-a {
-text-decoration: none;
-}
-
-#popup-qris {
-position: fixed;
-inset: 0;
-display: grid;
-place-items: center;
-background-color: rgba(0, 0, 0, 0.5);
-opacity: 0;
-transform: scale(0);
-}
-
-#popup-qris.popup-qris {
-animation: popup-qris 400ms ease-in-out forwards;
-}
-
-@keyframes popup-qris {
-100% {
-opacity: 1;
-transform: scale(1);
-}
-}
-
-#popup-qris > img {
-width: 300px;
-height: 300px;
-}
-
-
-<center></style>
-</head>
-<body>
-<header>
-<div class="cards">
-<div class="card">
-<a href="https://i.ibb.co/yWZQLky/qris-saya-1.png" class="item" id="qris">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-<path fill="none" d="M0 0h24v24H0z" />
-<path d="M16 17v-1h-3v-3h3v2h2v2h-1v2h-2v2h-2v-3h2v-1h1zm5 4h-4v-2h2v-2h2v4zM3 3h8v8H3V3zm2 2v4h4V5H5zm8-2h8v8h-8V3zm2 2v4h4V5h-4zM3 13h8v8H3v-8zm2 2v4h4v-4H5zm13-2h3v2h-3v-2zM6 6h2v2H6V6zm0 10h2v2H6v-2zM16 6h2v2h-2V6z" fill="rgba(255,255,255,1)" />
-</svg>
-</a>
-<p>QRIS</p></center>
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head><center><title>ISI SALDO R-PAY VIA WHATSAPP</title></center> <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script> <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> </head> <body> <div class="container"> <div class="col-lg-6 col-lg-offset-3"> <center><h4><b>
-
-
-</b></h4></center> <div class="panel panel-success"> <div class="panel-heading"> <marquee><center><b>ISI SALDO (DEPOSIT) VIA WHATSAPP SLOW RESPON, WAJIB LAMPIRKAN BUKTI TRANSFER.</b></center></marquee> </div> <div class="panel-body"> <div class="form-group"> <label>Nama (sesuai di aplikasi)</label> <input type="text" name="name" class="form-control" placeholder="Nama" id="name"> </div> <div class="form-group"> <label>Email (sesuai di aplikasi)</label> <input type="email" name="email" class="form-control" placeholder="Email" id="email"> </div> <div class="form-group"> <label>Nomor WhatsApp (sesuai di aplikasi)</label> <input type="text" name="phone" class="form-control" placeholder="Nomor WhatsApp" id="phone"> </div> <div class="form-group"> <label>Jumlah TopUp Saldo</label> <input type="text" name="topup" class="form-control" placeholder="Minimal 10.000" id="topup"> </div> <div class="form-group"> <label>Pilih Pembayaran</label> <select name="pembayaran" class="form-control" id="pembayaran"> <option>-- Pilih Pembayaran --</option> 
-
-<option value="QRIS">QRIS MINIMAL = 10.000 MAKSIMAL = 300.000 </option> </select> </div> <div class="form-group"> <label>Catatan</label> <textarea name="description" class="form-control" rows="3" id="description"></textarea> </div> <div class="form-group"> 
-
-
-
-<center>
-
-
-<button class="btn btn-success send">Kirim via WhatsApp</button> </div> <div id="text-info"></div> </div> </div> </div> </div> <script> $(document).on('click','.send', function(){ /* Inputan Formulir */ var input_name = $("#name").val(), input_email = $("#email").val(), input_phone = $("#phone").val(), input_topup = $("#topup").val(), input_product = $("#pembayaran").val(), input_description = $("#description").val(); /* Pengaturan Whatsapp */ var walink = 'https://web.whatsapp.com/send', phone = '6282225514936', text = 'Halo saya ingin Top Up Saldo R-PAY (VIA WHATSAPP) ', text_yes = 'Pesanan Anda berhasil terkirim.', text_no = 'Isilah formulir terlebih dahulu.'; /* Smartphone Support */ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { var walink = 'whatsapp://send'; } if(input_name != "" && input_phone != "" && input_product != ""){ /* Whatsapp URL */ var checkout_whatsapp = walink + '?phone=' + phone + '&text=' + text + '%0A%0A' + '*Nama* : ' + input_name + '%0A' + '*Alamat Email* : ' + input_email + '%0A' + '*Nomor Whatsapp* : ' + input_phone + '%0A' + '*Jumlah TopUp* : ' + input_topup + '%0A' + '*pembayaran* : ' + input_product + '%0A' + '*Catatan* : ' + input_description + '%0A'; /* Whatsapp Window Open */ window.open(checkout_whatsapp,'_blank'); document.getElementById("text-info").innerHTML = '<div class="alert alert-success">'+text_yes+'</div>'; } else { document.getElementById("text-info").innerHTML = '<div class="alert alert-danger">'+text_no+'</div>'; } }); </script> 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.3/jquery.min.js"></script> <script> $(document).ready(function(){ $('body').find('img[src$="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]').remove(); }); </script> <div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a></div><script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&&notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Go for it</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Black Friday Prices",h1Tag.setAttribute("style",'color: white; font-family: "Roboto", sans-serif; font-size: 22px; font-weight: 700; text-transform: uppercase;');var h2Tag=document.createElement("H2");h2Tag.innerHTML="Get 90% Off!",h2Tag.setAttribute("style",'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Get Web Hosting for $0.99/month + SSL Certificate for FREE!",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 15px;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2020-wp-inject-img.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.3/jquery.min.js"></script>
-<script>
-   $(document).ready(function(){      
-    $('body').find('img[src$="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]').remove();
-   }); 
-</script>
-
-</body> </html></center>
+  </script> 
+ </body>
+</html>
